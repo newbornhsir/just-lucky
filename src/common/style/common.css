@@ -1,0 +1,116 @@
+.mui-bar
+{
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+
+.mui-popover .mui-bar-nav
+{
+    border-bottom: 1px solid rgba(0, 0, 0, .15);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+.mui-bar .mui-title
+{
+    right: 40px;
+    left: 40px;
+
+    display: inline-block;
+    overflow: hidden;
+
+    width: auto;
+    margin: 0;
+
+    text-overflow: ellipsis;
+}
+.mui-title
+{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 44px;
+
+    position: absolute;
+
+    display: block;
+
+    width: 100%;
+    margin: 0 -10px;
+    padding: 0;
+
+    text-align: center;
+    white-space: nowrap;
+
+    color: #000;
+}
+
+.mui-title a
+{
+    color: inherit;
+}
+.mui-bar .mui-title .mui-icon
+{
+    margin: 0;
+    padding: 0;
+}
+.mui-bar .mui-title .mui-icon.mui-icon-caret
+{
+    top: 4px;
+
+    margin-left: -5px;
+}
+.mui-pull-left
+{
+    float: left;
+}
+
+.mui-pull-right
+{
+    float: right;
+}
+
+.mui-bar .mui-btn.mui-pull-right
+{
+    margin-left: 10px;
+}
+.mui-bar .mui-btn.mui-pull-left
+{
+    margin-right: 10px;
+}
+.mui-bar .mui-btn-nav.mui-pull-left
+{
+    margin-left: -5px;
+}
+.mui-bar .mui-btn-nav.mui-pull-left .mui-icon-left-nav
+{
+    margin-right: -3px;
+}
+.mui-bar .mui-btn-nav.mui-pull-right
+{
+    margin-right: -5px;
+}
+.mui-bar .mui-btn-nav.mui-pull-right .mui-icon-right-nav
+{
+    margin-left: -3px;
+}
+.mui-bar .mui-btn-nav:active
+{
+    opacity: .3;
+}
+.mui-bar .mui-btn-nav.mui-pull-left
+{
+    margin-left: -5px;
+}
+.mui-bar .mui-btn-nav.mui-pull-left .mui-icon-left-nav
+{
+    margin-right: -3px;
+}
+.mui-bar .mui-btn-nav.mui-pull-right
+{
+    margin-right: -5px;
+}
+.mui-bar .mui-btn-nav.mui-pull-right .mui-icon-right-nav
+{
+    margin-left: -3px;
+}
