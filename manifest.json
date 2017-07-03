@@ -1,4 +1,4 @@
-﻿{
+{
     "@platforms": ["android", "iPhone", "iPad"],
     "id": "H507E5374",/*应用的标识，创建应用时自动生成，勿手动修改*/
     "name": "justlucky",/*应用名称，程序桌面图标名称*/
@@ -199,5 +199,73 @@
                 }
             }
         }
-    }
+    },
+	"dependencies": {
+		"pages": {
+			"index.html": {
+				"resources": [
+					"static/img/bg.png",
+					"src/common/js/immersed.js",
+					"src/common/js/mui.js",
+					"static/img/logo.png",
+					"src/common/style/mui.css",
+					"src/common/js/md5.js"
+				],
+				"refer": [
+					"dist/index.html"
+				],
+				"priority": 0
+			},
+			"dist/index.html": {
+				"resources": [
+					"dist/static/js/mui.650c0e383e9d9cda25db.js",
+					"dist/static/css/app.f0f41a17b94570e43a0cb2e8196f34eb.css",
+					"dist/static/js/md5.2a2d35784fe2f6ea498a.js",
+					"dist/static/js/app.0e627af314697374a75f.js",
+					"dist/static/js/immersed.2d39c5ea2aa9bdaf3e02.js",
+					"dist/static/js/vendor.af51f7dac3d330b051c4.js",
+					"dist/static/js/manifest.de939218fe8a2ea4f7e1.js",
+					"dist/static/js/manifest.1b29d145310583f7c9be.js",
+					"dist/static/js/md5.1212fdd8eca8479a35ef.js",
+					"dist/static/js/vendor.af0b940d8fc3f5e1acf8.js",
+					"dist/static/js/immersed.4ea76444c1d6ba1eb68e.js",
+					"dist/static/js/app.f010fd32ebae54bb9ec2.js",
+					"dist/static/js/vendor.fe0cf0d0a4d0c4c594ec.js",
+					"dist/static/js/manifest.6cd8b819d2d5d1253d56.js",
+					"dist/static/js/immersed.7f07fa0e55418775d567.js",
+					"dist/static/js/md5.dac5270a1c448c38ecd5.js",
+					"dist/static/css/app.7dfac0c4145aeb3625cbc3a6f8222ad6.css",
+					"dist/static/js/app.ee3245b4b746af0e9e02.js"
+				],
+				"refer": [],
+				"priority": 0
+			}
+		},
+		"idle": {
+			"resources": [
+				"config/index.js",
+				"src/components/goods/goods.vue",
+				"build/vue-loader.conf.js",
+				"src/preloadMain.js",
+				"build/build.js",
+				"build/webpack.dev.conf.js",
+				"src/App.vue",
+				"config/prod.env.js",
+				"build/utils.js",
+				"build/webpack.base.conf.js",
+				"src/common/style/common.css",
+				"src/components/Hello.vue",
+				"build/dev-client.js",
+				"package.json",
+				"build/check-versions.js",
+				"src/main.js",
+				"src/router/index.js",
+				"template.html",
+				"config/dev.env.js",
+				"build/webpack.prod.conf.js",
+				"build/dev-server.js",
+				"package-lock.json"
+			]
+		}
+	}
 }

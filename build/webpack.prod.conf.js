@@ -53,7 +53,7 @@ var webpackConfig = merge(baseWebpackConfig, {
       filename: 'index.html',
       template: 'template.html',
       inject: true,
-      chunks: ['mui','immersed','md5','app'],
+      chunks: ['manifest','vendor','immersed','md5','app'],
       minify: {
         removeComments: true,
         collapseWhitespace: true,
@@ -68,7 +68,7 @@ var webpackConfig = merge(baseWebpackConfig, {
       filename: 'preload.html',
       template: 'template.html',
       inject: true,
-      chunks: ['mui','immersed','preload'],
+      chunks: ['manifest','vendor','immersed','preload'],
       minify: {
         removeComments: true,
         collapseWhitespace: true,

@@ -11,7 +11,6 @@ module.exports = {
   entry: {
     app: './src/main.js',
     preload: './src/preloadMain.js',
-    mui: './src/common/js/mui.js',
     md5: './src/common/js/md5.js',
     immersed: './src/common/js/immersed.js'
   },
@@ -21,6 +20,9 @@ module.exports = {
     publicPath: process.env.NODE_ENV === 'production'
       ? config.build.assetsPublicPath
       : config.dev.assetsPublicPath
+  },
+  externals: {
+    mui: 'mui'
   },
   resolve: {
     extensions: ['.js', '.vue', '.json'],

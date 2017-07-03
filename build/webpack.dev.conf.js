@@ -29,14 +29,14 @@ module.exports = merge(baseWebpackConfig, {
       filename: 'index.html',
       template: 'template.html',
       inject: true,
-      chunks: ['mui','immersed','md5','app']
+      chunks: ['immersed','md5','app']
     }),
     //配置了另外一个模版文件
     new HtmlWebpackPlugin({
       filename: 'webview.html',
       template: 'template.html',
       inject: true,
-      chunks: ['mui','immersed','preload']
+      chunks: ['immersed','preload']
     }),
     new FriendlyErrorsPlugin()
   ]

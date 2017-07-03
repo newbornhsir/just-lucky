@@ -3,7 +3,10 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import { Header, Button, Tabbar, TabItem, TabContainer, TabContainerItem } from 'mint-ui'
+require('./common/style/iconfont.css')
+import { Header, Button, Tabbar, TabItem, TabContainer, TabContainerItem, Swipe, SwipeItem } from 'mint-ui'
+Vue.component(Swipe.name, Swipe)
+Vue.component(SwipeItem.name, SwipeItem)
 Vue.component(Header.name, Header)
 Vue.component(Tabbar.name, Tabbar)
 Vue.component(TabItem.name, TabItem)
